@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1015/600/400" alt="Mountain">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1016/600/400" alt="Nature">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1025/600/400" alt="Dog">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1035/600/400" alt="Beach">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1043/600/400" alt="Forest">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1069/600/400" alt="Road">
+        </div>
+
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+
+        <button class="prev" id="prev">&#10094;</button>
+
+        <img id="lightbox-img" src="" alt="Preview">
+
+        <button class="next" id="next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
